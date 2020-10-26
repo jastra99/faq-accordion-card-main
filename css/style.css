@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+
+  padding: 32px 20px 20px;
+}
+
+#mobile-ilu {
+  position: absolute;
+  left: 40px;
+
+  display: block;
+}
+
+#desktop-ilu {
+  display: none;
+}
+
+main {
+  background-color: #fff;
+  margin-top: 110px;
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 100px 20px 30px;
+  box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.5);
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 40px 0 0 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+.questions {
+  margin: 30px 0 0 0;
+}
+
+.collapsible {
+  padding: 20px 0;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  color: hsl(237, 12%, 33%);
+}
+
+.collapsible p {
+  display: inline;
+}
+
+.collapsible img {
+  float: right;
+  margin: 3px 4px 0 0;
+  height: 8px;
+}
+
+/* .active, .collapsible:hover {
+  background-color: #ccc;
+} */
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.content p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: hsl(240, 6%, 50%);
+}
+
+.attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width: 376px) {
+  
+}
