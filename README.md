@@ -1,6 +1,10 @@
 # Frontend Mentor - FAQ Accordion Card
 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
+desktop design works on 1440px width
+
+![Design preview for the FAQ Accordion Card coding challenge](./design/mobile-design.jpg)
+mobile design works on 375px width
 
 ## Welcome! 👋
 
